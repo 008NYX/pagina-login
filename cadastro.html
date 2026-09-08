@@ -17,13 +17,13 @@
             <p>Bem-vindo para fazer seu cadastro preencha as informações abaixo!</p>
             <div class="content">
                 <div class="inputs">
-                    <input type="text" placeholder="Nome de usuário:" class="user">
-                    <input type="email" placeholder="Email:" class="user">
-                    <input type="password" placeholder="Senha:" class="psswrd">
-                    <input type="password" placeholder="Confirme sua senha:" class="psswrd">
+                    <input type="text" placeholder="Nome de usuário:" class="user" id="cadastroName">
+                    <input type="email" placeholder="Email:" class="user" id="cadastroMail">
+                    <input type="password" placeholder="Senha:" class="psswrd" id="cadastroSenha">
+                    <input type="password" placeholder="Confirme sua senha:" class="psswrd" id="cadastroConfirm">
                 </div>
 
-                <a href="index.html" class="entrar">Cadastrar</a>
+                <button type="button" class="entrar" id="cadastroButton">Cadastrar</button>
                 <div class="cadastro">
                     <p>Já tem uma conta? <a href="index.html" class="cadastrobtn">Faça login já!</a></p>
                 </div>
@@ -31,6 +31,8 @@
         </div>
 
     </main>
+
+    <script src="cadastro.js"></script>
 </body>
 
 </html>
